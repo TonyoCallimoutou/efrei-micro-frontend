@@ -5,6 +5,9 @@ module.exports = {
   exposes: {
     './Button': './src/Button',
   },
+  remotes: {
+    sharedComponents: 'sharedComponents@http://localhost:3010/remoteEntry.js'
+  },
   filename: 'remoteEntry.js',
   shared: {
     ...dependencies,
