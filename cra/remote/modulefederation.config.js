@@ -3,7 +3,7 @@ const { dependencies } = require('./package.json');
 module.exports = {
   name: 'remote',
   exposes: {
-    './Bucket': './src/Bucket',
+    './Bucket': './src/Bucket/Bucket.js',
   },
   remotes: {
     sharedComponents: 'sharedComponents@http://localhost:3010/remoteEntry.js'
