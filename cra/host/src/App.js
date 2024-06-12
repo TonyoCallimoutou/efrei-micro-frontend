@@ -8,7 +8,7 @@ const NavBar = React.lazy(() => import('sharedComponents/Header'));
 const Footer = React.lazy(() => import('sharedComponents/Footer'))
 
 const App = () => (
-  <div>
+  <div style={{ textAlign: 'center'}}>
     <h1>Basic Host</h1>
     <React.Suspense fallback="Loading header">
       <NavBar />
