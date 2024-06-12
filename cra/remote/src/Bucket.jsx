@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
 import { storage } from '../firebase';
+import React from "react";
 
 function Bucket() {
   const [imgUrl, setImgUrl] = useState(null);
