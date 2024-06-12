@@ -9,11 +9,11 @@ const Footer = React.lazy(() => import('sharedComponents/Footer'))
 
 const App = () => (
   <div>
-    <h1>Basic Remote</h1>
-    <Bucket />      
+    <h1>Basic Remote</h1>     
     <React.Suspense fallback="Loading header">
       <NavBar />
     </React.Suspense>
+    <Bucket /> 
     <React.Suspense fallback="Loading footer">
       <Footer />
     </React.Suspense>
