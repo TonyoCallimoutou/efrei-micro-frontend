@@ -1,6 +1,6 @@
 import React from "react";
 import { expect,describe,it } from "vitest";
-import Bucket from "../remote/src/Bucket";
+import Bucket from "../remote/src/Bucket/Bucket.js";
 import { render,screen,act } from '@testing-library/react';
 
 
