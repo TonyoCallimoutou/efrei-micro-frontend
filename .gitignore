@@ -136,3 +136,5 @@ buildServer
 /comprehensive-demo-react*/**/public/*.css
 *.map
 
+cra/.pnpm-store
+

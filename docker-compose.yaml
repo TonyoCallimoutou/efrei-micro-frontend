@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    container_name: react-app
+    working_dir: /app/cra
+    ports:
+      - "3000:3000"
+      - "3010:3010"
+      - "3002:3002"
+    command: sh -c "pnpm install && pnpm start"
