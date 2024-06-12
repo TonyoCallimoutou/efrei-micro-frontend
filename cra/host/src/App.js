@@ -3,8 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import PokemonList from './PokeDisplay';
 
-const RemoteButton = React.lazy(() => import('remote/Button'));
-
 const NavBar = React.lazy(() => import('sharedComponents/Header'));
 
 const Footer = React.lazy(() => import('sharedComponents/Footer'))
