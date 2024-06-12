@@ -5,6 +5,9 @@ module.exports = {
   exposes: {
     './Bucket': './src/Bucket',
   },
+  remotes: {
+    sharedComponents: 'sharedComponents@http://localhost:3010/remoteEntry.js'
+  },
   filename: 'remoteEntry.js',
   shared: {
     ...dependencies,
